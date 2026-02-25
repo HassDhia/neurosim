@@ -1,0 +1,37 @@
+{
+  "seed": 42,
+  "timesteps": 20000,
+  "eval_episodes": 20,
+  "environments": {
+    "neurosim/DecoderAdapt-v0": {
+      "env_id": "neurosim/DecoderAdapt-v0",
+      "timesteps": 20000,
+      "train_time_s": 6.66,
+      "ppo_mean_reward": 121.11124999999967,
+      "ppo_std_reward": 20.661070693153707,
+      "random_mean_reward": 23.69750000000006,
+      "random_std_reward": 7.596725857236155,
+      "improvement": 97.41374999999961
+    },
+    "neurosim/CursorControl-v0": {
+      "env_id": "neurosim/CursorControl-v0",
+      "timesteps": 20000,
+      "train_time_s": 6.57,
+      "ppo_mean_reward": -89.99111719849495,
+      "ppo_std_reward": 27.71236233181037,
+      "random_mean_reward": -209.20834606364838,
+      "random_std_reward": 8.534995140842305,
+      "improvement": 119.21722886515343
+    },
+    "neurosim/SpellerNav-v0": {
+      "env_id": "neurosim/SpellerNav-v0",
+      "timesteps": 20000,
+      "train_time_s": 8.37,
+      "ppo_mean_reward": -11.599999999999966,
+      "ppo_std_reward": 2.040833163195853,
+      "random_mean_reward": -5.551333333333332,
+      "random_std_reward": 2.786881251706127,
+      "improvement": -6.048666666666634
+    }
+  }
+}

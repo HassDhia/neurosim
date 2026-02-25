@@ -1,0 +1,14 @@
+include LICENSE
+include README.md
+include pyproject.toml
+
+# Exclude large artifacts from sdist
+prune results
+prune paper
+prune .venv
+prune .claude
+global-exclude *.pt
+global-exclude *.zip
+global-exclude *.pdf
+global-exclude __pycache__
+global-exclude *.pyc

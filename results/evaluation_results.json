@@ -1,0 +1,41 @@
+{
+  "csp_lda_within_subject": {
+    "mean": 0.8625,
+    "std": 0.0503,
+    "n_seeds": 10,
+    "n_epochs": 200,
+    "n_channels": 22,
+    "snr": 0.15,
+    "per_seed": [
+      0.875,
+      0.8,
+      0.925,
+      0.875,
+      0.75,
+      0.875,
+      0.875,
+      0.875,
+      0.85,
+      0.925
+    ]
+  },
+  "loso_transfer": {
+    "method": "loso",
+    "n_subjects": 9,
+    "n_channels": 22,
+    "epochs_per_subject": 100,
+    "per_subject_accuracy": {
+      "1": 0.93,
+      "2": 0.95,
+      "3": 0.83,
+      "4": 0.92,
+      "5": 0.97,
+      "6": 0.94,
+      "7": 0.97,
+      "8": 0.95,
+      "9": 0.93
+    },
+    "mean_accuracy": 0.9322,
+    "std_accuracy": 0.0397
+  }
+}
